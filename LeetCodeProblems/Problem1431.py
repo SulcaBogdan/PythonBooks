@@ -16,5 +16,6 @@ max_val = the maximum value in the 'candies' list, and bool_list = an empty list
 1. For loop in the range of the number of elements in the list.
 2. If the value added to extraCandies >= the maximum value in the 'candies' list, then add True to the boolean list; otherwise, add False to the boolean list.
 3. Return the boolean list.
+Time complexity of O(n)
 
 """
