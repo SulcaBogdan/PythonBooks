@@ -22,6 +22,13 @@ class Solution:
 
 
 
+    def maximumWealthRedo(self, accounts: List[List[int]]) -> int:
+        wealth = 0
+        for i in accounts:
+            sum = sum(i)
+            if sum > wealth:
+                wealth = sum
+        return wealth
 
 
 
