@@ -21,7 +21,13 @@ class Solution:
         return wealth
 
 
-
+"""
+    1. For this example, I initialized the variable wealth to 0.
+    2. I created a for loop to select each list in the 'accounts' list.
+    3. I initialized the variable sum with the sum of the 'i'-th list.
+    4. I checked if sum > wealth, and if this condition is true, then wealth = sum; otherwise, we continue in the for loop.
+    The complexity is O(n) because we iterate through the list only once, n times.
+"""
     def maximumWealthRedo(self, accounts: List[List[int]]) -> int:
         wealth = 0
         for i in accounts:
