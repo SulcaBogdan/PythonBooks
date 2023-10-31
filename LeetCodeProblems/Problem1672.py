@@ -1,9 +1,5 @@
 from typing import List
 
-
-class Solution:
-    def maximumWealth(self, accounts: List[List[int]]) -> int:
-
 """
  For this solution, I thought as follows:
     1. I created two variables, i = 0 -> the index of elements from the first list, and j = 1 -> the index of the next list in the list.
@@ -13,6 +9,10 @@ class Solution:
     5. After checking the condition that i should be greater than the length of the 'accounts' list, the value of the wealth variable is returned.
     The complexity of this solution is O(n^2) because it loops through 2 lists. It is slow, but I will certainly manage to achieve O(n).
 """
+class Solution:
+    def maximumWealth(self, accounts: List[List[int]]) -> int:
+
+
         i = 0
         j = 1
         wealth = sum(accounts[i])
